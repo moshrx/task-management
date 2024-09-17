@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <h2>Create Task</h2>
+    <form id="taskForm">
+        <label>Title:</label>
+        <input type="text" id="title">
+        <label>Description:</label>
+        <textarea id="description"></textarea>
+        <label>Assign to:</label>
+        <input type="text" id="assignedTo">  <!-- Ideally a dropdown populated with users -->
+        <button type="submit">Create Task</button>
+    </form>
+
+    <h2>Tasks</h2>
+    <ul id="tasksList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
